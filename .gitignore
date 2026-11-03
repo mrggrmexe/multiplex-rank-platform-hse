@@ -1,0 +1,138 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100/
+.Trashes/
+.fseventsd/
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.stackdump
+
+# Linux
+.directory
+.Trash-*/
+.nfs*
+
+# IDEs and editors
+.idea/
+*.iml
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.project
+.classpath
+.settings/
+.fleet/
+*.swp
+*.swo
+*~
+.#*
+\#*#
+*.sublime-workspace
+.history/
+
+# Local environment and credentials (keep shareable templates)
+.env
+.env.*
+!.env.example
+!.env.*.example
+!.env.sample
+!.env.template
+.envrc
+
+# Logs, temporary files and caches
+*.log
+*.pid
+*.pid.lock
+*.tmp
+*.temp
+*.bak
+.cache/
+/tmp/
+/temp/
+
+# Test and coverage output
+coverage/
+.coverage
+.coverage.*
+htmlcov/
+.nyc_output/
+test-results/
+playwright-report/
+
+# JavaScript / TypeScript
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/install-state.gz
+.pnp.*
+*.tsbuildinfo
+.next/
+.nuxt/
+.output/
+.svelte-kit/
+.parcel-cache/
+.turbo/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+*.egg-info/
+.eggs/
+.ipynb_checkpoints/
+
+# Go
+bin/
+*.exe
+*.test
+*.test.exe
+coverage.out
+coverage.txt
+*.prof
+*.pprof
+# Local multi-module workspace (go.mod and go.sum remain tracked)
+/go.work
+/go.work.sum
+
+# Build output (lockfiles remain tracked)
+build/
+dist/
+target/
+.gradle/
+*.class
+obj/
+*.o
+*.obj
+*.py,cover
+
+# Local container overrides
+docker-compose.override.yml
+docker-compose.override.yaml
+compose.override.yml
+compose.override.yaml
